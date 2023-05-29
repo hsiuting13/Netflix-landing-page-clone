@@ -1,0 +1,77 @@
+.showcase {
+  /* width: 100%; */
+  min-height: 31rem;
+  /* height: 100vh; */
+  position: relative;
+
+  background-image: linear-gradient(
+      103.24deg,
+      rgb(0, 8, 29, 0.9) 23.83%,
+      rgba(0, 8, 29, 0.3) 96.1%
+    ),
+    url("../images/websitebackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.showcase::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: linear-gradient(180deg, rgba(0, 8, 29, 0) 0%, #00081d 93.46%);
+}
+.showcase-top {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 5.3rem;
+  padding: 1.5rem 2rem;
+}
+
+.showcase-top > .left-section {
+  width: 9.25rem;
+  height: 2.5rem;
+}
+.showcase-top > .right-section {
+  display: flex;
+  width: 15.25rem;
+  height: 2.5rem;
+  /* background-color: lightblue; */
+}
+.showcase-top a {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
+
+.showcase-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 3.75rem 6rem 0 6rem;
+}
+.showcase-content h1 {
+  font-size: 2.8rem;
+  color: white;
+  font-weight: 900;
+  width: 800px;
+}
+.showcase-content p {
+  font-size: 1.3rem;
+  margin: 1.2rem 0;
+  color: white;
+  font-weight: 500;
+}
+.email-container {
+  display: flex;
+}

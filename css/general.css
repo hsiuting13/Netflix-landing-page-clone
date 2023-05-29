@@ -1,0 +1,100 @@
+/* Global Styles */
+:root {
+  --primary-color: #e50914;
+  --dark-color: #141414;
+  --light-color: #f4f4f4;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Netflix Sans", Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  /* background: #000; */
+  color: #999;
+  background: rgba(0, 8, 29, 1);
+}
+
+ul {
+  list-style: none;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  background: var(--primary-color);
+  color: #fff;
+  /* vertical horizontal */
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  transition: opacity 0.2s ease-in;
+  outline: none;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+  border-radius: 0.25rem;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+.btn-xl {
+  font-size: 1.5rem;
+  padding: 1rem 1.5rem;
+}
+.btn-icon {
+  margin-left: 0.4rem;
+}
+/* language options */
+.language-options {
+  position: absolute;
+  z-index: 2;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.375rem 0.75rem 0.375rem 0.75rem;
+  background-color: rgba(22, 22, 22, 0.7);
+  border-radius: 0.25rem;
+  margin-top: 0.1rem;
+  margin-left: 0.7rem;
+  border: 1px solid rgba(146, 144, 144, 0.7);
+}
+.language-options > img {
+  width: 20px;
+  margin-right: 0.5rem;
+}
+.language-options p {
+  font-size: 1rem;
+  margin-top: 0.2rem;
+  margin-right: 1rem;
+}
+/* input field */
+.custom-field {
+  font-size: 14px;
+  position: relative;
+}
+,
+custom-field input {
+}
+.input-button {
+  padding: 0.375rem 5rem;
+  background-color: rgba(22, 22, 22, 0.7);
+  border-radius: 0.25rem;
+  border: 1px solid rgba(146, 144, 144, 0.7);
+  text-align: left;
+}
+/* Text Styles */
