@@ -75,3 +75,6 @@
 .email-container {
   display: flex;
 }
+.email-container .custom-field {
+  margin-right: 0.5rem;
+}
