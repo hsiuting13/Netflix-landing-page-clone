@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+.container div {
+  flex: 1;
+  flex-basis: 800px;
+  height: 600px;
+  background: radial-gradient(
+    99.93% 134.44% at 17.93% 0%,
+    #09143c 0%,
+    #101338 57.21%,
+    #400e20 99.57%
+  );
+  margin: 10px 10px;
+  border-radius: 20px;
+}
